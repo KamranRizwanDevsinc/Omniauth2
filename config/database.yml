@@ -14,5 +14,5 @@ test:
 production:
   <<: *default
   database: superails_production
-  username: superails
-  password: <%= ENV['superails_DATABASE_PASSWORD'] %>
+  username: postgres
+  password: postgres
